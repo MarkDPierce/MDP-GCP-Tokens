@@ -68,7 +68,7 @@ api_tokens:
 To encrypt a file in place, meaning you take a normal file and replace its contents with the encrypted data.
 
 ```
-sops --encrypt --in-place --gcp-kms projects/mdp-token/locations/global/keyRings/mdpeys/cryptoKeys/demo-key secrets.yaml
+sops --encrypt --in-place --gcp-kms projects/<PROJECT_NAME>/locations/global/keyRings/<KR_NAME>/cryptoKeys/<KEY_NAME> secrets.yaml
 ```
 
 ##### The .sops.yaml file
