@@ -1,0 +1,4 @@
+---
+creation_rules:
+       # Encrypt using GCP KMS
+       - gcp_kms: projects/<PROJECT_NAME>/locations/global/keyRings/<KR_NAME>/cryptoKeys/QuickRotate
