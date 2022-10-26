@@ -43,7 +43,7 @@ You can list your projects with
 gcloud projects list
 ```
 
-You will have to have a key available or create your own via terraform. I have created some terraform that will create a key-ring as well as some keys to use with this [Github Link](https://github.com/MarkDPierce/MDP-GCP-Tokens)
+You will have to have a key available or create your own via terraform. I have created some terraform that will create a key-ring as well as some keys to use with this [Github Link](https://github.com/MarkDPierce/MDP-GCP-Tokens/Terraform)
 
 ## Terraform Setup
 There are some terraform files that are designed to help create an example setup to help follow along. Just be aware that when you create a KeyRing, you can not delete it unless you delete the project. The terraform is setup to use a `.tfvars` file that has a space for "creds" this should be a service account's json file for authentication.
